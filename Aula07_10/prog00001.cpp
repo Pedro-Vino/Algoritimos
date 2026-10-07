@@ -17,4 +17,14 @@ int main() {
 	} else {
 		printf("\nPelo menos um não é positivo");
 	}
+	
+	x = 10;
+	
+	x += 5;  // x = x + 5  -> x = 15
+	x *= 2;  // x = x * 2  -> x = 30
+	x -= 10; // x = x - 10 -> x = 20
+	
+	printf("\nValor final de x: %d\n", x);
+	
+	return 0;
 }
