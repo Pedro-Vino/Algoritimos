@@ -5,8 +5,8 @@ int main() {
 	setlocale(LC_ALL, "Portuguese");
 	printf("Olá, Mundo!");
 
-	int x = 70;
-	int y = 3;
+	float x = 70.0;
+	float y = 3.0;
 	
 	if(x > 5 && x < 20){
 		printf("\nO valor de x está entre os valores 5 e 20.");
@@ -24,7 +24,7 @@ int main() {
 	x *= 2;  // x = x * 2  -> x = 30
 	x -= 10; // x = x - 10 -> x = 20
 	
-	printf("\nValor final de x: %d\n", x);
+	printf("\nValor final de x: %.2f\n", x);
 	
 	return 0;
 }
